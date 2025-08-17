@@ -1,5 +1,5 @@
 {
-  "name": "@yourorg/adapter-vue",
+  "name": "@initeelab/adapter-vue",
   "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "vue": "^3.4.21",
-    "@yourorg/core": "*",
-    "@yourorg/canvas": "*"
+    "@initeelab/core": "*",
+    "@initeelab/canvas": "*"
   },
   "devDependencies": {
     "vite": "^5.1.0",
-    "@vitejs/plugin-vue": "^5.1.0",
+    "@vitejs/plugin-vue": "^3.1.0",
     "typescript": "^5.4.0"
   }
 }
