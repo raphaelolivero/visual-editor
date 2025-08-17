@@ -1,0 +1,21 @@
+{
+  "name": "@yourorg/adapter-vue",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.json",
+    "demo": "vite --config vite.config.ts --cwd demo"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "@yourorg/core": "*",
+    "@yourorg/canvas": "*"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "typescript": "^5.4.0"
+  }
+}
