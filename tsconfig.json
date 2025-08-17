@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@yourorg/core": ["packages/core/src"],
+      "@yourorg/canvas": ["packages/canvas/src"],
+      "@yourorg/ui": ["packages/ui/src"],
+      "@yourorg/adapter-vue": ["packages/adapter-vue/src"]
+    }
+  },
+  "include": ["packages/**/*"]
+}

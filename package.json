@@ -1,0 +1,13 @@
+{
+  "name": "visual-editor",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*",
+    "packages/adapter-vue/demo"
+  ],
+  "scripts": {
+    "dev:vue": "yarn workspace @yourorg/adapter-vue demo"
+  },
+  "license": "MIT"
+}
