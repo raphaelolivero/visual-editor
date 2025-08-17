@@ -1,4 +1,4 @@
-import type { EditorDocument } from "@yourorg/core";
+import type { EditorDocument } from '@initeelab/core';
 
 /**
  * Renders the provided document into a container element. This placeholder
