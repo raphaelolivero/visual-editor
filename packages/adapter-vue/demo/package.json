@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "vue": "^3.4.21",
-    "@yourorg/core": "*",
-    "@yourorg/canvas": "*",
-    "@yourorg/adapter-vue": "*"
+    "@initeelab/core": "*",
+    "@initeelab/canvas": "*",
+    "@initeelab/adapter-vue": "*"
   },
   "devDependencies": {
     "vite": "^5.1.0",
