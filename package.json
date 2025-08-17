@@ -1,5 +1,5 @@
 {
-  "name": "visual-editor",
+  "name": "falastin",
   "private": true,
   "version": "0.0.1",
   "workspaces": [
@@ -7,7 +7,7 @@
     "packages/adapter-vue/demo"
   ],
   "scripts": {
-    "dev:vue": "yarn workspace @yourorg/adapter-vue demo"
+    "dev:vue": "yarn workspace @initeelab/adapter-vue demo"
   },
   "license": "MIT"
 }
