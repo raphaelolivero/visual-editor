@@ -6,8 +6,9 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-    '@initeelab/core': resolve(__dirname, '../core/src'),
-  '@initeelab/canvas': resolve(__dirname, '../canvas/src'),
-  '@initeelab/adapter-vue': resolve(__dirname, 'src')
-
+      '@initeelab/core': resolve(__dirname, '../core/src'),
+      '@initeelab/canvas': resolve(__dirname, '../canvas/src'),
+      '@initeelab/adapter-vue': resolve(__dirname, 'src'),
+    },
+  },
 });

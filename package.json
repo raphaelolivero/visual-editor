@@ -7,7 +7,13 @@
     "packages/adapter-vue/demo"
   ],
   "scripts": {
-    "dev:vue": "yarn workspace @initeelab/adapter-vue demo"
+    "build": "yarn workspaces foreach --all --topological run build",
+    "dev": "yarn workspace @initeelab/adapter-vue demo dev"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.9.2",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }

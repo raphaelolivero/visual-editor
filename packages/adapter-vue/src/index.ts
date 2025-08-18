@@ -1,6 +1,6 @@
 import { createApp, defineComponent, h } from 'vue';
-import type { EditorDocument } from '@yourorg/core';
-import { render } from '@yourorg/canvas';
+import type { EditorDocument } from '@initeelab/core';
+import { render } from '@initeelab/canvas';
 
 /**
  * Mounts the editor into a Vue application. The document is passed into the

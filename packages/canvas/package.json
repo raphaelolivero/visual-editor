@@ -5,10 +5,13 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p ../../tsconfig.json"
+    "build": "tsc -b"
   },
   "dependencies": {
-   "@initeelab/core": "*"
+    "@initeelab/core": "*"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }

@@ -1,20 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@initeelab/core": ["packages/core/src"],
-      "@initeelab/canvas": ["packages/canvas/src"],
-      "@initeelab/ui": ["packages/ui/src"],
-      "@initeelab/adapter-vue": ["packages/adapter-vue/src"]
-    },
-    }
-  },
-  "include": ["packages/**/*"]
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/canvas" },
+    { "path": "./packages/adapter-vue" }
+  ]
 }
