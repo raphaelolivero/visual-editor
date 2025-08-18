@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+  gap: 1rem;
+  padding: 1rem;
+}
+#palette, #inspector {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  overflow-y: auto;
+}
+#canvas {
+  border: 1px dashed #bbb;
+  background-color: #fff;
+  min-height: 80vh;
+  padding: 1rem;
+}
+.palette-item {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: grab;
+}
+.palette-item:hover {
+  background-color: #f0f0f0;
+}
+.canvas-node {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.canvas-node.selected {
+  border: 2px solid blue;
+  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.2);
+}
+.inspector-field {
+  margin-bottom: 0.5rem;
+}
+.inspector-field label {
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
