@@ -6,6 +6,7 @@ export type Node = {
   y: number;
   width: number;
   height: number;
+  children?: Node[];
 }
 
 export type Doc = {
